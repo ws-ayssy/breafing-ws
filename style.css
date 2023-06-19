@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
 
 body {
-    position: relative;
+    position: absolute;
     height: 100vh;
     margin: 0;
     background-image: url('./fundo.png');
@@ -14,7 +14,7 @@ body {
 }
 
 #top {
-    margin-bottom: 20px;
+    margin-bottom: 19px;
 }
 
 #container {
@@ -31,7 +31,6 @@ body {
 h1 {
     font-size: 40px;
     margin: 0;
-    padding-bottom: 20px;
     text-align: center;
 }
 
@@ -40,7 +39,7 @@ h1 {
     height: 312px;
 }
 
- @media (max-width: 768px) {
+ @media (max-width: 765px) {
     #container {
         top: 40%;
         max-width: 100%;
