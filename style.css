@@ -32,18 +32,13 @@ h1 {
 
 
 #player {
-    width: 554.5px;
+    width: 554px;
     height: 312px;
 }
 
  @media (max-width: 1366px) {
     #container {
         top: 40%;
-        max-width: 100%;
-        margin-top: 65px;
-    }
-
-    #player {
-        width: 100%;
+        margin-top: 70px;
     }
 }
