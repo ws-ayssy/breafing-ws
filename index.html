@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="icon" href="./wilson-sons.ico">
+    <title>Briefing de Segurança - WS</title>
+</head>
+<body>
+    <h1>Bem-vindos à Wilson Sons</h1>
+
+    <div id="container">    
+        <div id="player"></div>
+    </div>
+
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script>
+        // Variáveis globais
+        let player;
+
+        // Função chamada quando a API JavaScript do YouTube está pronta
+        function onYouTubeIframeAPIReady() {
+            player = new YT.Player('player', {
+                height: '415',
+                width: '660',
+                videoId: 'Hdxnx54Mn70',
+                events: {
+                    'onStateChange': onPlayerStateChange
+                }
+            });
+        }
+
+        // Função chamada quando o estado do player muda
+        function onPlayerStateChange(event) {
+            if (event.data === YT.PlayerState.ENDED) {
+                redirectToLink();
+            }
+        }
+
+        // Função para redirecionar para o link desejado
+        function redirectToLink() {
+            window.open("https://docs.google.com/forms/d/e/1FAIpQLScvAcJfBRIIxs0c1f0aibNJguUyUtSX7cyJMLStgHLUePfttw/viewform", "_blank");
+        }
+    </script>
+</body>
+</html>
