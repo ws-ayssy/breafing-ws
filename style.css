@@ -21,7 +21,6 @@ body {
     border-radius: 10px;
     text-align: center;
     color: transparent;
-    margin-top: 70px;
 }
 
 h1 {
@@ -37,10 +36,11 @@ h1 {
     height: 312px;
 }
 
- @media (max-width: 767px) {
+ @media (max-width: 768px) {
     #container {
         top: 40%;
         max-width: 100%;
+        margin-top: 65px;
     }
 
     #player {
