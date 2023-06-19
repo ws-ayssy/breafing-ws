@@ -17,7 +17,7 @@ body {
     transform: translate(-50%, -50%);
     max-width: 1000px;
     background-color: rgba(245, 241, 241, 0.8);
-    border: 10px solid transparent;
+    border: 6px solid transparent;
     border-radius: 10px;
     text-align: center;
     color: transparent;
