@@ -36,7 +36,7 @@ h1 {
     height: 312px;
 }
 
- @media (max-width: 768px) {
+ @media (max-width: 1366px) {
     #container {
         top: 40%;
         max-width: 100%;
